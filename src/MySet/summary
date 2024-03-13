@@ -1,0 +1,13 @@
+set is unordered, unique, its operation (add , remove , contains)O(1)
+* set functions
+   - add()
+   - addAll()
+
+* it is implemented by (HashSet, LinkedHashSet, treeSet)
+* HashSet and LinkedHashSet
+ - hashset it is unordered and unique
+ - linkedhashset it is ordered and unique
+
+* treeset
+  - guarantees log(n) time cost for the basic operations (add, remove and contains)
+  - elements of set will be sorted with natural

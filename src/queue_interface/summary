@@ -1,0 +1,25 @@
+Queue
+Features of a Queue
+
+    *A queue’s items are added to and removed using the FIFO paradigm.
+    *LinkedList, and PriorityQueue are the most popular implementations of queue.
+    *Any null operation on the blocking queues results in the NullPointerException being thrown.
+    *Deques actually allow for element removal and insertion at both ends.
+
+Queue methods
+    *offer(element) ==> add from the end
+    *poll() ==> return null queue is empty, else remove and return from front
+    *peek() ==> return null queue is empty, else remove and return from front
+    *contains
+
+Dequeue methods
+    *offer(element) ==> add from the end
+    *poll() ==> return null queue is empty, else remove and return from front
+    *peek() ==> return null queue is empty, else remove and return from front
+    *peekFirst()
+    *peekLast()
+    *pollFirst() ==> poll from the front
+    *pollLast() ==> poll from the last
+    *offerFirst() ==> add from the front
+    *offerLast() ==> add from the Last
+

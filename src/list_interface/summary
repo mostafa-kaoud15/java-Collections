@@ -1,0 +1,42 @@
+List functions
+* add(element) , add(index,element)
+* addFirst(element), addLast(element)
+* addAll(collection), addAll(index,collection)
+
+* remove(element), remove(index)
+* removeFirst(), removeLast() ==> throw exception if the List is empty
+* removeAll(collection), removeIf(predicate<>)
+
+* get(index)
+* getFirst(), getLast()
+* set(index, new_value)
+* subList(from, to)
+* contains(element)
+* containsAll(collection)
+* sort(comparator)
+
+STACK FUNCTIONS
+* pop()
+* push()
+* peek()
+
+//List classes
+1 - ArrayList
+* it is implemented use the dynamic array
+* is access and modifies elements O(1)
+* add , remove elements O(n)
+
+2 - LinkedList
+* it is implemented using the Double Linked List
+* is add, remove elements from the begin and the end O(1)
+* add, remove elements from other position in O(n)
+* access and modifies element O(n)
+
+3 - Vector
+* it is like a ArrayList
+* but its functions is synchronize
+* thread save but take more time
+
+4 - Stack
+* it extend the vector
+* last-in-first-out LIFO
